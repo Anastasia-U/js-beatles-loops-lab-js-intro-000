@@ -17,5 +17,11 @@ function johnLennonFacts(facts) {
 }
 
 function iLoveTheBeatles(number) {
+  var beet = [];
 
+  do {
+    beet.push("I love Beatles!")
+    number ++
+  } while (number < 15)
+  return beet;
 }
