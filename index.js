@@ -10,10 +10,11 @@ function theBeatlesPlay(musicians, instruments) {
 
 function johnLennonFacts(facts) {
   var lennon = [];
-  facts.forEach(function(fact) {
-    lennon.push(fact + "!!!");
-  });
-  return lennon
+while (facts > 0) {
+  lennon.push(facts + "!!!");
+  n--;
+}
+return lennon;
 }
 
 function iLoveTheBeatles(number) {
