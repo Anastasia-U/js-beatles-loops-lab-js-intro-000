@@ -22,7 +22,7 @@ function iLoveTheBeatles(number) {
   do {
     beet.push("I love the Beatles!")
     number ++;
-    
+
   } while (number < 15)
   return beet;
 }
