@@ -13,7 +13,7 @@ function johnLennonFacts(facts) {
   facts.forEach(function(fact) {
     lennon.push(fact + "!!!");
   });
-  reurn lennon
+  return lennon
 }
 
 function iLoveTheBeatles(number) {
