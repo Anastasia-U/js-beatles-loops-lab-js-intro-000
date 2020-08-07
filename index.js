@@ -12,7 +12,7 @@ function johnLennonFacts(facts) {
   var lennon = [];
   let n = 0
 while (n > 0) {
-  lennon.push(facts + "!!!");
+  lennon.push(facts[n] + "!!!");
   n--;
 }
 return lennon;
